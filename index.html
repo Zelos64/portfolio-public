@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Développeur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#accueil" class="nav__logo">Zelos<span class="nav__logo-dot">.dev</span></a>
+      <ul class="nav__links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+        <h1>Zelos</h1>
+        <h2>Développeur junior</h2>
+        <p>temp</p>
+    </section>
+
+    <section id="projets" class="projects">
+      <h2>Projets menés</h2>
+      <div class="projects__grid">
+        <article class="project-card">
+          <div class="project-card__bar">
+            <span class="project-card__filename">reaulight.project</span>
+          </div>
+          <div class="project-card__body">
+            <h3>Réaulight</h3>
+            <p>Logiciel libre de gestion du matériel de son et lumière</p>
+            <a href="#" class="project-card__link">Voir le projet</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__bar">
+            <span class="project-card__filename">xenoforge.project</span>
+          </div>
+          <div class="project-card__body">
+            <h3>XenoForge</h3>
+            <p>Interface de modding des jeux Xenoblade</p>
+            <a href="#" class="project-card__link">Voir le projet</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="apropos" class="about">
+      <h2>À propos</h2>
+      <div class="about__grid">
+        <div class="about__block">
+          <h3>Formations</h3>
+          <ul class="timeline">
+            <li>
+              <span class="timeline__marker"></span>
+              <div>
+                <p class="timeline__title">BAC STI2D — option SIN</p>
+                <p class="timeline__desc">Systèmes d'Informations et Numériques</p>
+              </div>
+            </li>
+            <li>
+              <span class="timeline__marker"></span>
+              <div>
+                <p class="timeline__title">BTS SIO</p>
+                <p class="timeline__desc">Service Informatique aux Organisations</p>
+              </div>
+            </li>
+            <li>
+              <span class="timeline__marker"></span>
+              <div>
+                <p class="timeline__title">Permis B</p>
+                <p class="timeline__desc">Je ne possède pas encore de véhicule</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="about__block">
+          <h3>Langages</h3>
+          <ul class="tag-list">
+            <li>HTML/CSS</li>
+            <li>C++</li>
+            <li>Qt</li>
+            <li>Lua</li>
+            <li>Python</li>
+          </ul>
+        </div>
+
+        <div class="about__block">
+          <h3>Logiciels</h3>
+          <ul class="tag-list">
+            <li>Suite Microsoft Office</li>
+            <li>LibreOffice</li>
+            <li>Adobe Photoshop</li>
+            <li>Premiere Pro</li>
+            <li>Gimp</li>
+            <li>Blender 3D</li>
+          </ul>
+        </div>
+
+        <div class="about__block">
+          <h3>Outils utilisés</h3>
+          <ul class="tag-list">
+            <li>Ghidra</li>
+            <li>Suite JetBrains</li>
+            <li>Wireshark</li>
+            <li>VS Code</li>
+            <li>VS Community 2026</li>
+            <li>Git / Github</li>
+          </ul>
+        </div>
+
+        <div class="about__block">
+          <h3>Outils développés</h3>
+          <ul class="tag-list tag-list--accent">
+            <li>XbTool GUI</li>
+            <li>OPUS to NOP</li>
+          </ul>
+        </div>
+
+        <div class="about__block">
+          <h3>Compétences</h3>
+          <ul class="tag-list">
+            <li>Configuration de cartes Arduino / Mcore / Raspberry Pi</li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <div class="contact__layout">
+        <ul class="contact-links">
+          <li>
+            <a href="mailto:geologz2064@gmail.com" class="contact-links__link">
+              <svg class="contact-links__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16v16H4z" stroke="none"/>
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="m22 6-10 7L2 6"/>
+              </svg>
+              <span>geologz2064@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/votre-pseudo" target="_blank" rel="noopener" class="contact-links__link">
+              <svg class="contact-links__icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.58 2 12.2c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.5 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.63.07-.63 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.05 0-1.12.39-2.03 1.03-2.74-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.71 1.03 1.62 1.03 2.74 0 3.92-2.34 4.79-4.57 5.04.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .28.18.6.69.5A10.02 10.02 0 0 0 22 12.2C22 6.58 17.52 2 12 2z"/>
+              </svg>
+              <span>github.com/Geo6453</span>
+            </a>
+          </li>
+        </ul>
+
+        <form class="contact-form" action="#" method="POST">
+          <div class="contact-form__row">
+            <div class="contact-form__field">
+              <label for="nom">Nom</label>
+              <input type="text" id="nom" name="nom" required>
+            </div>
+            <div class="contact-form__field">
+              <label for="prenom">Prénom</label>
+              <input type="text" id="prenom" name="prenom" required>
+            </div>
+          </div>
+          <div class="contact-form__field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Envoyer</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Zelos. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
